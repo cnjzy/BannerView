@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BannnerView</string>
+
+    <string-array name="banner_style_array">
+        <item>循环+自动滚动+scale动画</item>
+        <item>不循环+不自动滚动+无动画</item>
+        <item>循环+组合动画</item>
+        <item>循环+多重动画+设置边距+图片距离+滚动速度</item>
+        <item>不要滚动标识点</item>
+    </string-array>
+</resources>
