@@ -57,7 +57,11 @@ public class SampleBannerViewActivity extends AppCompatActivity {
     }
 
     private void setBannerView(int position, TextView titleView, BannerView bannerView) {
+        // bind data
         bannerView.bindData(mImageList);
+
+        // set item click listener
+        bannerView.setOnBannerItemClickListener(mOnBannerItemClickListener);
         switch (position) {
             case 0:
                 titleView.setText("循环+自动滚动+scale动画");

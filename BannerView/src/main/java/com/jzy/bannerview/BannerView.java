@@ -76,7 +76,7 @@ public class BannerView extends LinearLayout {
         mBannerVp.setPageTransformer(true, new ScaleInTransformer());
 
         // 默认滑动速度
-        setScrollerSpeed(1000);
+        setScrollerSpeed(600);
     }
 
     private void initListener() {
