@@ -25,12 +25,7 @@ Step 3. Add the BannerView in you layout
 
 Step 4. in Activity
 
-	/**
- * @author jzy
- * @date 2019/3/22
- * @desc
- */
-public class SampleBannerViewActivity extends AppCompatActivity {
+	public class SampleBannerViewActivity extends AppCompatActivity {
     public static final String EXTRA_TITLE = "extra_title";
     public static final String EXTRA_POSITION = "extra_positionF";
 
