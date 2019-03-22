@@ -42,7 +42,7 @@ Step 4. in Activity
         mImageList.add("http://img4.imgtn.bdimg.com/it/u=3409415147,2909420565&fm=26&gp=0.jpg");
         mImageList.add("http://img1.imgtn.bdimg.com/it/u=1444799040,2563782889&fm=11&gp=0.jpg");
         mImageList.add("http://img1.imgtn.bdimg.com/it/u=1528790140,3963439459&fm=26&gp=0.jpg");
-          mImageList.add("http://g.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=2ba66742a686c91708565a3dfc0d5cf9/30adcbef76094b3612c39857a2cc7cd98d109d33.jpg");
+       mImageList.add("http://g.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=2ba66742a686c91708565a3dfc0d5cf9/30adcbef76094b3612c39857a2cc7cd98d109d33.jpg");
     }
 
     @Override
