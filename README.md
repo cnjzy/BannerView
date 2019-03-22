@@ -108,6 +108,5 @@ Step 4. in Activity
                 break;
         }
     }
-
 }
 
