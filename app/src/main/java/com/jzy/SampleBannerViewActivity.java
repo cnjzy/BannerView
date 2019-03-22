@@ -10,7 +10,6 @@ import android.widget.Toast;
 import com.jzy.bannerview.BannerView;
 import com.jzy.bannerview.transformer.AlphaPageTransformer;
 import com.jzy.bannerview.transformer.NonPageTransformer;
-import com.jzy.bannerview.transformer.RotateDownPageTransformer;
 import com.jzy.bannerview.transformer.RotateUpPageTransformer;
 import com.jzy.bannerview.transformer.RotateYTransformer;
 import com.jzy.bannerview.transformer.ScaleInTransformer;
@@ -23,14 +22,14 @@ import java.util.List;
  * @date 2019/3/22
  * @desc
  */
-public class BannerViewActivity extends AppCompatActivity {
+public class SampleBannerViewActivity extends AppCompatActivity {
     public static final String EXTRA_TITLE = "extra_title";
     public static final String EXTRA_POSITION = "extra_positionF";
 
     private BannerView.OnBannerItemClickListener mOnBannerItemClickListener = new BannerView.OnBannerItemClickListener() {
         @Override
         public void onBannerItemClick(View view, int position) {
-            Toast.makeText(BannerViewActivity.this, "click:" + position, Toast.LENGTH_SHORT).show();
+            Toast.makeText(SampleBannerViewActivity.this, "click:" + position, Toast.LENGTH_SHORT).show();
         }
     };
 

@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class SampleMainActivity extends AppCompatActivity {
 
     private ViewGroup mContainer;
 
@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent();
-                    intent.setClassName(getPackageName(), BannerViewActivity.class.getName());
-                    intent.putExtra(BannerViewActivity.EXTRA_TITLE, mItemArray[position]);
-                    intent.putExtra(BannerViewActivity.EXTRA_POSITION, position);
+                    intent.setClassName(getPackageName(), SampleBannerViewActivity.class.getName());
+                    intent.putExtra(SampleBannerViewActivity.EXTRA_TITLE, mItemArray[position]);
+                    intent.putExtra(SampleBannerViewActivity.EXTRA_POSITION, position);
                     startActivity(intent);
                 }
             });
